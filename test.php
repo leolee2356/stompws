@@ -1,5 +1,5 @@
 <?php
 require   './vendor/autoload.php';
-$wss = '122';
+$wss = 'ws://122';
 $stopClient = new \StompWS\StompWSClient($wss);
 $stopClient->connect();
